@@ -1,0 +1,41 @@
+---
+title: About
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		{% include header.html %}
+		<style>
+		</style>
+	</head>
+	
+	<body>
+		<div class="wrapper">
+			<header>
+				{% include nav.html %}
+			</header>
+			
+			<main>
+				<h1>
+				{{ page.title }}
+				</h1>
+				
+				<section>
+					<p>
+					This aims to provide an easier way for Wendy's managers to calculate the money amount in the safe.
+					</p>
+				</section>
+				
+				<section>
+					<div>
+					Email feedback at <!--sse--><a href="mailto:wendyscounter@qupg.org"><em>wendyscounter@qupg.org</em></a><!--sse-->
+					</div>
+				</section>
+			</main>
+		</div>
+		
+		<footer>
+			{% include footer.html %}
+		</footer>
+	</body>
+</html>
